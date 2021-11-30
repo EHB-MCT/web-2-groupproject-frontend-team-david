@@ -8,5 +8,11 @@ function button() {
 }
 
 function lol() {
-    console.log("test")
+    fetch(`https://web2-backend-teamdavid.herokuapp.com/api/boardgames`)
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+        });
 }
