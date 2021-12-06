@@ -7,34 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
     <script type="module" src="index.js"></script>
     <title>Document</title>
 </head>
 
-<body id="body">
-    <!-- //https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_number -->
-    <form id="challenge">
-        <label>New challenge?</label><br>
-        <input type="text" placeholder="Challenge" id="challenge_name">
-        <br>
-        <label for="quantity">Points</label>
-        <br>
-        <input type="number" placeholder="Points" id="challenge_points" name="quantity" min="1" max="5"> <br>
-        <label for="quantity">Course</label><br>
-        <input type="text" placeholder="Course" id="challenge_course">
-        <br>
-        <label for="quantity">Session</label><br>
-        <input type="text" placeholder="Session" id="challenge_session">
-        <br>
-        <button id="challenge_button">CHALLENGE</button>
-    </form>
+<body>
 
-    <div id="list"></div>
-    <h1>Challenges</h1>
+    <main>
+
+        <form id="challenge">
+            <div id="h1">
+                <h1>Insert new challenge</h1>
+            </div>
+            <h1 for="text">Challenge</h1>
+            <input type="text" placeholder="Challenge" id="challenge_name">
+
+            <h1 for="quantity">Points</h1>
+
+            <input type="number" placeholder="Points" id="challenge_points" name="quantity" min="1" max="5">
+            <h1 for="quantity">Course</h1>
+            <input type="text" placeholder="Course" id="challenge_course">
+
+            <h1 for="quantity">Session</h1>
+            <input type="text" placeholder="Session" id="challenge_session">
+
+            <button id="challenge_button">CHALLENGE</button>
+        </form>
+
+    </main>
+    <div id="main">
+        <div id="h1">
+            <h1>Challenges</h1>
+        </div>
+        
+        <div id="list">
+        </div>
+
     </div>
+    </div>
+    <!-- //https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_number -->
 </body>
 
 </html>
